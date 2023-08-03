@@ -12,7 +12,7 @@ app.use(corsConfig);
 
 app.use(parseFilters, parseSorts);
 
-// route
+// rote
 app.use("/", route);
 
 app.get("/", (req, res) => {
